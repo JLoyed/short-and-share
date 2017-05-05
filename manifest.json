@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Short & Share",
+    "version": "0.1.0",
+    "description": "Shorten the current URL and share it to social media sites.",
+    "browser_action": {
+        "default_icon": "assets/icon.png",
+        "default_title": "Short & Share",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "clipboardWrite",
+        "identity",
+        "https://www.googleapis.com/urlshortener/",
+        "activeTab"
+    ]
+}
